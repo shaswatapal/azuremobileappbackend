@@ -10,7 +10,7 @@ namespace TestMobileAppShasService.Controllers
     [MobileAppController]
     public class ValuesController : ApiController
     {
-        // GET api/values
+        // GET api/values updated
         public string Get()
         {
             MobileAppSettingsDictionary settings = this.Configuration.GetMobileAppSettingsProvider().GetMobileAppSettings();
